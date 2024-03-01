@@ -13,7 +13,7 @@ def is_enabled(value, default):
 API_ID = int(environ.get("API_ID", "25015843"))
 API_HASH = environ.get("API_HASH", "3f225798a2834c821dfeeeaf76ca7614")
 BOT_TOKEN = environ.get("BOT_TOKEN", "6667359811:AAFqvqV9Y6GYhWNisEfsAz0Gds62v0FpgfU")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "1002037856757"))
 ADMINS = int(environ.get("ADMINS", ""))
 DB_URI = environ.get("DB_URI", "mongodb+srv://olawale:olawale@cluster0.o7a2fdj.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "chatgptvjbot")
